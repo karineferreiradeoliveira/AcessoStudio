@@ -14,7 +14,7 @@
   }
   
   .logo {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
   }
@@ -29,7 +29,7 @@
   }
   
   main {
-    background: url("bg.jpg") no-repeat center center;
+    /*background: url("bg.jpg") no-repeat center center;*/
     background-size: cover;
     height: 92vh;
   }

@@ -7,12 +7,15 @@
     <title>Acesso Studio</title>
     <link rel="stylesheet" href="menu.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <header>
+    <header> <!-- Menu -->
       <nav>
-        <a class="logo" href="/">Acesso Studio</a>
+        <a class="logo" href="/"><b>Acesso</b> Studio</a>
         <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
@@ -20,13 +23,83 @@
         </div>
         <ul class="nav-list">
           <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+
+      <section> <!-- Home -->
+        <div class="first">
+          <h1>Tenha acesso e 
+            alcance mais 
+            clientes</h1>
+          <p>Promova seus produtos ou serviços na internet e amplie seu negócio.
+          </p>
+          <button class="btn1">
+            Agendar Consultoria Gratuita
+          </button>
+        </div>
+      </section>
+
+      <section> <!-- Experience -->
+        <div class="xp"> 
+          <h2>Somos <b> Especialistas em Web</b>,
+            Temos as Melhores <b>Estratégias</b> Para <b>Seu Negócio</b></h2>
+        </div>
+      </section>
+
+      <section class="second"><!-- Serviços -->
+        
+        <div id="servicos">
+          <h1>Social Media</h1>
+          <p>Foco principal em potencializar sua comunicação com seus seguidores, além de elaborarmos campanhas estratégicas para alcançar seu público. 
+          </p>
+        </div>
+        <div>
+          <h1>Gestão de Tráfego</h1>
+          <p>Criação de estratégias, acompanhamento e otimização de campanhas, grupos anúncios, páginas de destino e ofertas. 
+            (Google Ads e Facebook Ads).
+          </p>
+        </div>
+
+      </section>
+
+      <section class="third"> <!-- Sobre -->
+        
+        <div id="sobre">
+          <h1>Sobre</h1>
+          <p>O acesso Studio é uma agência especializada em marketing digital localizada em Luís Eduardo Magalhães, região Oeste da Bahia.
+            Atuamos com excelência na gestão de Redes Sociais, Criação de Sites e Gestão de Campanhas Avançadas de Google AdWords e Facebook Ads.
+          </p>
+        </div>
+        
+        <div id="contato"> <!-- Contato -->
+
+          <h1>Contato</h1>
+         
+          <p><img class="a" src="img/email.png" height="16" width="16"> contato@acessostudio.com.br</p>
+          
+          <p><img src="img/whatsapp.png" height="16" width="16"> 77 99102 - 0728</p>
+        </div>
+
+      </section>
+
+    </main>
+    <!-- Footer -->
+    <section>
+      <div>
+      <footer>
+        <p>Powered by <a href="https://www.acessostudio.com" title="W3.CSS" target="_blank" class="w3-hover-text-green"></a>w3.css</a></p>
+      </footer>
+    </div>
+
+    </section>
+
     <script src="mobile-navbar.js"></script>
+   
   </body>
+  
 </html>

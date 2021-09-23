@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    
 }
 p{
     text-align: center;    
@@ -18,7 +19,7 @@ img .a {
 } 
 
 .first{
-    position: relative;
+   
     width: auto;
     height: 59vh;
     color: white;
@@ -28,10 +29,15 @@ img .a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
     padding: 60px 20px 10px 20px;/*use padding e não margin neste caso*/
 }
 
 .btn1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     width: 350px;
     height: 70px;
     color: white;
@@ -40,11 +46,10 @@ img .a {
     background-color: rgb(142, 74, 231);
     border: 2px solid rgba(148, 101, 223, 0.26);
     border-radius: 6px;
-  
     margin-bottom: 30px;
 }
 .xp{
-    position: relative;
+    
     color: #23232e;
     background-color:  whitesmoke;
     display: flex;
@@ -52,50 +57,86 @@ img .a {
     justify-content: center;
     text-align: center;
     padding: 20px 5px;
-    font-size: 1.3rem;
-    border: 1px solid #0e0e13;
+    font-size: 1rem;
+    border: 0.4px solid #0e0e1315;
 }
 .second{/*serviços*/
-    position: relative;
-    color: whitesmoke;
+    color: white;
     width: 100%;
     height: 600px;
-    background-color: #23232e;
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-content: space-around;
 
 }
 .second >div {
     padding: 20px 30px;
+    background-color: #23232e;
+    width: 300px;
 }
 .second >div >p {
     
-    text-align: center;
-    padding: 20px;
+    text-align: justify;
+    padding: 5px;
     line-height: 1.2;
     letter-spacing: 0.8px;
 }
 
 .third {
-    position: relative;
+    display: flex;
+    justify-content: center;
     color: #23232e;
     background-color: whitesmoke;
-    padding: 50px;
+    line-height: 1.2;
+
 }
-.third > h1{
-    background-color: aqua;
+.third > div {
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    background-color: #23232e;
+    width: 300px;
+    color: white;
 }
-.contato > p{
-    font-size: 260px;
+.third > div p {
+    text-align: justify;
+    padding-top: 40px;
+    
+}
+
+.contato{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #23232e;
+    padding: 20px;
+
+    
+}
+.contato > div p {
+    padding: 10px;
+}
+.sociais {
+    display: flex;
+    flex-direction: row;
+
 }
 
 footer{
+    display: flex;
+    bottom: 0;
+    width: auto;
+    height: 40px;
     position: relative;
-    top:1150px;
+    top:1140px;
     display: flex;
     justify-content:center;
     align-items:flex-end;
-    background-color: indigo;
+    background-color: #23232e;
     color:whitesmoke;
+    margin: 0;
+    padding: 0px 10px 20px 10px;
+    
 }
